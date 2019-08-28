@@ -38,6 +38,7 @@ HAProxy frontend configuration directives.
     haproxy_backend_mode: 'http'
     haproxy_backend_balance_method: 'roundrobin'
     haproxy_backend_httpchk: 'HEAD / HTTP/1.1\r\nHost:localhost'
+    haproxy_backend_httpchk_cookie: 'cookie'
 
 HAProxy backend configuration directives.
 
